@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Professional Navigation Bar</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <a href="#">Lunar Surgicals</a>
+            </div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img src="img/assets/indian-flag-38509.png" alt="" width="60" height="30">
+        </nav>
+    </header>
+
+    <main>
+        <!-- main section for content -->
+        <section> 
+        <div class="title">Syringe and needles</div>
+        <div class="caption">Choose Syringe and needle technology that makes a difference</div>
+        <div class="caption">Lunar Surgicals is a leading manufacturer and provider of safety injection needles and syringes1,2, continually pioneering the development of high-quality, easy-to-use injection devices designed to protect healthcare workers from needlestick injuries and exposure to bloodborne pathogens. We offer one of the most complete lines of advanced safety-engineered products in the industry.</div>
+        
+        <!-- Flex cards -->
+        <div class="cards">
+
+            <div class="card">
+                <img src="img/assets/image3.jpg" alt="">
+                <p class="name">Needle1</p>
+                <p>Description</p>
+            </div>
+
+            <div class="card">
+                <img src="img/assets/image3.jpg" alt="">
+                <p class="name">Needle2</p>
+                <p>Description</p>
+            </div>
+
+            <div class="card">
+                <img src="img/assets/image3.jpg" alt="">
+                <p class="name">Needle3</p>
+                <p>Description</p>
+            </div>
+
+            <div class="card">
+                <img src="img/assets/image3.jpg" alt="">
+                <p class="name">Needle4</p>
+                <p>Description</p>
+            </div>
+
+            <div class="card">
+                <img src="img/assets/image3.jpg" alt="">
+                <p class="name">Needle5</p>
+                <p>Description</p>
+            </div>
+
+            <div class="card">
+                <img src="img/assets/image3.jpg" alt="">
+                <p class="name">Needle6</p>
+                <p>Description</p>
+            </div>
+
+
+            <div class="card">
+                <img src="img/assets/image3.jpg" alt="">
+                <p class="name">Needle7</p>
+                <p>Description</p>
+            </div>
+
+            <div class="card">
+                <img src="img/assets/image3.jpg" alt="">
+                <p class="name">Needle8</p>
+                <p>Description</p>
+            </div>
+
+            <div class="card">
+                <img src="img/assets/image3.jpg" alt="">
+                <p class="name">Needle9</p>
+                <p>Description</p>
+            </div>
+
+
+            
+
+            
+
+        </div>
+
+
+        </section>
+
+        <!-- Rest of the page content -->
+        <!-- Slideshow container -->
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Lunar Surgicals. All rights reserved.</p>
+    </footer>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+
+</body>
+
+</html>
