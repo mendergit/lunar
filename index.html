@@ -1,127 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Professional Navigation Bar</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LunarSurgicals</title>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" /> -->
+    <!-- MDB -->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css" rel="stylesheet" /> -->
+    <!-- own styles.css -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <nav id="navbar">
-            <div class="logo">
-                <a href="#">Lunar Surgicals</a>
+    <header> 
+        <!-- contains -->
+        <div class="topheader_container">
+            <div class="container"><!-- contains adress and mail -->
+                <div class="details">
+                    <a href=""><i class="fas fa-location-dot" style="color :#55acee"></i>    744 5th Road Sardarpura, Jodhpur</a>
+                    <a href="mailto:someone@yoursite.com" id ="mail"><i class="fas fa-envelope" style="color :#55acee"></i>    lunar@rediffmail.com</a>
+                </div>
+                    <div class="socialmedia">
+                        <!-- Facebook -->
+                        <i class="fab fa-facebook-f"></i>
+
+                        <!-- Twitter -->
+                        <i class="fab fa-twitter"></i>
+
+                        <!-- Google -->
+                        <i class="fab fa-google"></i>
+                        <!-- Instagram -->
+                        <i class="fab fa-instagram"></i>
+                    </div>
             </div>
+        </div>
+
+        <nav class="navbar">    
+            <a id="logo" href="">Logo</a>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
-            <img src="img/assets/indian-flag-38509.png" alt="" width="60" height="30">
+           <p id="bookbutton">Booking Now</p>
         </nav>
+
     </header>
 
     <main>
-        <!-- main section for content -->
-        <section> 
-        <div class="title">Syringe and needles</div>
-        <div class="caption">Choose Syringe and needle technology that makes a difference</div>
-        <div class="caption">Lunar Surgicals is a leading manufacturer and provider of safety injection needles and syringes1,2, continually pioneering the development of high-quality, easy-to-use injection devices designed to protect healthcare workers from needlestick injuries and exposure to bloodborne pathogens. We offer one of the most complete lines of advanced safety-engineered products in the industry.</div>
-        
-        <!-- Flex cards -->
-        <div class="cards">
-
-            <div class="card">
-                <img src="img/assets/image3.jpg" alt="">
-                <p class="name">Needle1</p>
-                <p>Description</p>
-            </div>
-
-            <div class="card">
-                <img src="img/assets/image3.jpg" alt="">
-                <p class="name">Needle2</p>
-                <p>Description</p>
-            </div>
-
-            <div class="card">
-                <img src="img/assets/image3.jpg" alt="">
-                <p class="name">Needle3</p>
-                <p>Description</p>
-            </div>
-
-            <div class="card">
-                <img src="img/assets/image3.jpg" alt="">
-                <p class="name">Needle4</p>
-                <p>Description</p>
-            </div>
-
-            <div class="card">
-                <img src="img/assets/image3.jpg" alt="">
-                <p class="name">Needle5</p>
-                <p>Description</p>
-            </div>
-
-            <div class="card">
-                <img src="img/assets/image3.jpg" alt="">
-                <p class="name">Needle6</p>
-                <p>Description</p>
-            </div>
-
-
-            <div class="card">
-                <img src="img/assets/image3.jpg" alt="">
-                <p class="name">Needle7</p>
-                <p>Description</p>
-            </div>
-
-            <div class="card">
-                <img src="img/assets/image3.jpg" alt="">
-                <p class="name">Needle8</p>
-                <p>Description</p>
-            </div>
-
-            <div class="card">
-                <img src="img/assets/image3.jpg" alt="">
-                <p class="name">Needle9</p>
-                <p>Description</p>
-            </div>
-
-
-            
-
-            
-
-        </div>
-
+        <section>
 
         </section>
 
-        <!-- Rest of the page content -->
-        <!-- Slideshow container -->
+        <section>
 
-
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 Lunar Surgicals. All rights reserved.</p>
+
     </footer>
-
-    <script>
-        window.onscroll = function() {myFunction()};
-        
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
-        
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-          } else {
-            navbar.classList.remove("sticky");
-          }
-        }
-        </script>
-
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"></script>
 </body>
 
 </html>

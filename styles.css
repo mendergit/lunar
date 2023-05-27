@@ -1,152 +1,142 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
     box-sizing: border-box
 }
 
+header {
+    padding: 0px;
+}
+
 body {
-    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header {
-
+.topheader_container {
+    background-color: #f4f4f4;
+    height: 40px;
     padding: 0px;
-    box-shadow: 1px 2px 20px #888888;
+    /* margin-left: 40px;
+    margin-right: 40px; */
 }
 
-#navbar {
+.container {
     overflow: hidden;
-    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    box-shadow: 1px 2px 20px #888888;
+    padding: 5px 20px;
+    height: 40px;
+
 }
 
-/* #navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-#navbar a.active {
-    background-color: #04AA6D;
-    color: white;
-}
-   */
-.content {
-    padding: 16px;
+.details {
+    overflow: hidden;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10%;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.sticky+.content {
-    padding-top: 60px;
-}
-
-
-.logo a {
-    color: black;
+.details a {
+    padding-right: 40px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    color: #707070;
+    font-size: 12px;
     text-decoration: none;
-    margin-right: 0px;
 }
+
+.details i {
+    padding: 0px 10px;
+}
+.socialmedia{
+    margin-right: 10%;
+}
+.socialmedia i {
+    font-size: 12px;
+    padding: 0px 5px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 15px 100px;
+    /* box-shadow: 0px 1px 2px #888888; */
+    /* margin: 0px 20px; */
+}
+
+.navbar #logo{
+    margin-left: 40px;
+    text-decoration: none;
+    color: #707070;
+    font-size: 20px;
+}
+
 
 .menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-left: 50px;
-    margin-right: auto;
-    /* margin-top: auto; */
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
 }
+
 
 .menu li {
+    margin: 0px 15px;
     display: inline-block;
-    margin: 5px 20px;
-    font-size: 18px;
-    /* margin-right: 20px; */
-
+    
 }
 
-.menu li a {
-    color: black;
-    font-family: 'Heebo', sans-serif;
+.menu li a{
+    font-family: 'Montserrat', sans-serif;
+    color: #707070;
     text-decoration: none;
-    font-weight: bold;
+    text-transform: uppercase;
 }
 
-.menu li a:hover {
-    color: blue;
-    text-decoration:underline;
-    transition: 0.2s;
-}
-
-.menu img{
-    margin-left: 625px;
-
-}
-
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
+#bookbutton{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 2%;
+    background-color: #00Aeef;
+    border-radius: 2px;
+    font-size: 12px;
+    color: white;
+    margin-right: 10%;
 }
 
 
-
-section {
-    padding: 100px 250px;
-}
-
-.title {
-    font-size: 36px;
-    margin: 20px 0px;
-    /* padding: auto; */
+/* .container>a{
+    font-family: 'Montserrat', sans-serif;
+    color: #707070;
+} */
 
 }
 
-.caption {
-    margin-top: 25px;
-    font-family: 'Heebo', sans-serif;
-    line-height: 1.6;
 
+
+
+/* .fa-location-dot{
+    color: #55acee;
+} */
+
+/* .fa-location-dot{
+    color: #55acee;
+} */
+/* .topheader_container #container{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.topheader_container  #container .fa-location-dot{
+    color: #55acee;
 }
 
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-.card {
-    padding: 50px 15px;
-}
-
-.card>img {
-    border-style: ridge;
-    width: 200px;
-    height: 150px;
-}
-
-.name {
-    color: blue;
-    font-weight: 1000;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* 
-.Box{
-    padding: 10px;
-    display: inline-block;
+.topheader_container > #container > span > a{
+    font-family: 'Montserrat', sans-serif;
+    color: #707070;
 } */
