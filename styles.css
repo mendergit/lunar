@@ -332,6 +332,9 @@ body {
     .service-list {
         grid-template-columns: repeat(2, 1fr);
     }
+    .heading{
+        font-size: 40px;
+    }
 }
 
 .contact-us {
