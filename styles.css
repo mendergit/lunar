@@ -337,6 +337,15 @@ body {
     }
 }
 
+@media (max-width: 600px) {
+    .service-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .heading{
+        font-size: 24px;
+    }
+}
+
 .contact-us {
     position: relative;
     width: 100vw;
