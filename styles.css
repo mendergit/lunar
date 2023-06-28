@@ -68,7 +68,7 @@ body {
     color: #707070;
 }
 
-#navbar {
+.navbar {
     overflow: hidden;
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
@@ -96,7 +96,7 @@ body {
     padding-top: 60px;
 }
 
-#navbar #logo {
+.navbar .logo {
     margin-left: 40px;
     text-decoration: none;
     color: #707070;
@@ -341,7 +341,28 @@ body {
     .heading{
         font-size: 7vw;
     }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: var(--white);
+        font-family: "Poppins", sans-serif;
+    }
+    a{
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+    }
     
+    .bookbutton{
+        display: none;
+    }
+
+
 }
 
 
