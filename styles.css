@@ -12,6 +12,7 @@ header {
 body {
     margin: 0;
     padding: 0;
+    overflow:hidden
 }
 
 html,
@@ -150,17 +151,16 @@ body {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 
 .slides {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     background-image: url(/lunar/img/assets/Screenshot\ 2023-06-01\ at\ 12.35.02\ AM.png);
-    background-position: top;
+    /* background-position: top; */
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-attachment: fixed;
 
 
