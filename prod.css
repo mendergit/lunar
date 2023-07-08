@@ -64,10 +64,6 @@ body {
     padding-right: 10px;
 }
 
-.socialmedia {
-    /* margin-left: 40px; */
-}
-
 .socialmedia i {
     font-size: 12px;
     /* padding: 0px 5px; */
@@ -118,7 +114,7 @@ body {
     display: block;
 }
 
-.bookbutton {
+/* .bookbutton {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     padding: 10px 2%;
@@ -136,76 +132,9 @@ body {
 .bookbutton:hover {
     color: #00Aeef;
     background-color: white;
-}
+} */
 
 
-
-.slideshow {
-    position: relative;
-    /* padding-top:12vh; */
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.slides {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(/lunar/img/assets/Screenshot\ 2023-06-01\ at\ 12.35.02\ AM.png);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
-
-    /* background-size: cover;
-    background-position: center;
-    display: table;
-    opacity: 0.5;
-    background-attachment: fixed; */
-}
-
-.caption {
-    display: flex;
-    position: absolute;
-    /* font-family: 'Montserrat', sans-serif; */
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 7% 7%;
-    /* width: 80vw;
-    height: 80vh;
-    font-size: 72px;
-    color: #555;
-    font-weight: 1000;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 1.65px;
-    display: flex;
-    position:absolute;
-    justify-content: center;
-    align-items: center; */
-
-}
-
-
-.heading {
-    /* width: 500px;
-    height: 900px; */
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    margin: 2% 10%;
-    font-size: 5vw;
-    font-weight: 900;
-}
-
-.subheading {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    margin: 4% 8%;
-    font-size: 2.5vh;
-    line-height: 2;
-    font-weight: 100;
-}
 
 
 
@@ -226,11 +155,15 @@ body {
       font-weight: 600;
       font-size: 34px;
       color: #09151a;
-      margin-left: 5%;
       /* text-align: center; */
+  }
+  .progress{
+    height: 5px; 
+    width: 15%;
   }
   .progress-bar {
     background-color: #00Aeef;
+    width: 100%;
     
 }
 
@@ -327,37 +260,46 @@ body {
   }
 
 
-/* 
-
-.cards {
+.menu-flex-container{
+    margin: 2%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
-    align-items: stretch;
+    align-items: center;
+}
+.menu-flex-container h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
-.card {
-    flex: 0 0 200px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+.vertical-menu {
+    width: 80vw;
+    height: 50vh;
+    overflow-y: auto;
 }
 
-.card img {
-    max-width: 100%;
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
 }
 
-.card .text {
-    padding: 0 20px 20px;
+.vertical-menu a:hover {
+    background-color: #00Aeef;
 }
 
-.card .text>button {
-    background: gray;
-    border: 0;
-    color: white;
-    padding: 10px;
-    width: 100%;
+.vertical-menu a.active {
+    /* background-color: #04AA6D; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #09151a;
 }
- */
+
+
 
 
 
