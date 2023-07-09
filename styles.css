@@ -112,7 +112,8 @@ body {
 .navbar .logo {
     text-decoration: none;
     color: #00Aeef;
-    font-size: 20px;
+    font-size: 46px;
+    font-weight: 600;
 }
 
 
@@ -137,8 +138,11 @@ body {
     text-decoration: none;
     font-weight: 900;
     text-transform: uppercase;
+    transition-duration: 0.3s;
 }
-
+.menu li>a:hover{
+    color: #00Aeef;
+}
 .bookbutton {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
